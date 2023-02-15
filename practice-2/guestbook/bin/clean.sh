@@ -5,4 +5,4 @@ kubectl delete service -l app=redis
 kubectl delete deployment frontend
 kubectl delete service frontend#Si on utilise 
 
-echo "everything deleted"
+echo "deployments and services deleted"

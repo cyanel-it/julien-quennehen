@@ -7,7 +7,7 @@ metadata:
     tier: frontend
 spec:
   type: LoadBalancer
-    # Lancer "minikube tunnel" pour activer l'external-ip
+    # Lancer "minikube tunnel" pour activer l'external-IP
   ports:
   - port: 80
   selector:
